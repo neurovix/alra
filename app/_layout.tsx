@@ -7,24 +7,30 @@ import '../global.css';
 
 export default function RootLayout() {
   const [loaded] = useFonts({
-    // Roboto normal
-    RobotoBold: require('../assets/fonts/roboto/normal/bold.ttf'),
-    RobotoExtralight: require('../assets/fonts/roboto/normal/extralight.ttf'),
-    RobotoLight: require('../assets/fonts/roboto/normal/light.ttf'),
-    RobotoMedium: require('../assets/fonts/roboto/normal/medium.ttf'),
-    RobotoRegular: require('../assets/fonts/roboto/normal/regular.ttf'),
-    RobotoSemibold: require('../assets/fonts/roboto/normal/semibold.ttf'),
-    RobotoThin: require('../assets/fonts/roboto/normal/thin.ttf'),
-    // Roboto italic
-    RobotoItalicBlack: require('../assets/fonts/roboto/italic/black-italic.ttf'),
-    RobotoItalicBold: require('../assets/fonts/roboto/italic/bold-italic.ttf'),
-    RobotoItalicExtrabold: require('../assets/fonts/roboto/italic/extrabold-italic.ttf'),
-    RobotoItalicExtralight: require('../assets/fonts/roboto/italic/extralight-italic.ttf'),
-    RobotoItalicRegular: require('../assets/fonts/roboto/italic/italic.ttf'),
-    RobotoItalicLight: require('../assets/fonts/roboto/italic/light-italic.ttf'),
-    RobotoItalicMedium: require('../assets/fonts/roboto/italic/medium-italic.ttf'),
-    RobotoItalicSemibold: require('../assets/fonts/roboto/italic/semibold-italic.ttf'),
-    RobotoItalicThin: require('../assets/fonts/roboto/italic/thin-italic.ttf'),
+    // IBM Condensed
+    IBMCondensedBold: require('../assets/fonts/condensed/bold.ttf'),
+    IBMCondensedExtralight: require('../assets/fonts/condensed/extralight.ttf'),
+    IBMCondensedLight: require('../assets/fonts/condensed/light.ttf'),
+    IBMCondensedMedium: require('../assets/fonts/condensed/medium.ttf'),
+    IBMCondensedRegular: require('../assets/fonts/condensed/regular.ttf'),
+    IBMCondensedSemibold: require('../assets/fonts/condensed/semibold.ttf'),
+    IBMCondensedThin: require('../assets/fonts/condensed/thin.ttf'),
+    // IBM Devanagari
+    IBMDevanagariBold: require('../assets/fonts/devanagari/bold.ttf'),
+    IBMDevanagariExtralight: require('../assets/fonts/devanagari/extralight.ttf'),
+    IBMDevanagariLight: require('../assets/fonts/devanagari/light.ttf'),
+    IBMDevanagariMedium: require('../assets/fonts/devanagari/medium.ttf'),
+    IBMDevanagariRegular: require('../assets/fonts/devanagari/regular.ttf'),
+    IBMDevanagariSemibold: require('../assets/fonts/devanagari/semibold.ttf'),
+    IBMDevanagariThin: require('../assets/fonts/devanagari/thin.ttf'),
+    // IBM Italic
+    IBMItalicBold: require('../assets/fonts/italic/bold.ttf'),
+    IBMItalicCondensed: require('../assets/fonts/italic/extralight.ttf'),
+    IBMItalicExtralight: require('../assets/fonts/italic/light.ttf'),
+    IBMItalicLight: require('../assets/fonts/italic/medium.ttf'),
+    IBMItalicMedium: require('../assets/fonts/italic/regular.ttf'),
+    IBMItalicSemibold: require('../assets/fonts/italic/semibold.ttf'),
+    IBMItalicThin: require('../assets/fonts/italic/thin.ttf'),
   });
 
   if (!loaded) {

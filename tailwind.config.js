@@ -6,24 +6,30 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // Roboto normal
-        roboto: ["RobotoRegular", "sans-serif"],
-        "roboto-bold": ["RobotoBold","sans-serif"],
-        "roboto-extralight": ["RobotoExtralight","sans-serif"],
-        "roboto-light": ["RobotoLight","sans-serif"],
-        "roboto-medium": ["RobotoMedium","sans-serif"],
-        "roboto-semibold": ["RobotoSemibold","sans-serif"],
-        "roboto-thin": ["RobotoThin","sans-serif"],
-        // Roboto italic
-        "roboto-italic-black": ["RobotoItalicBlack","sans-serif"],
-        "roboto-italic-bold": ["RobotoItalicBold","sans-serif"],
-        "roboto-italic-extrabold": ["RobotoItalicExtrabold","sans-serif"],
-        "roboto-italic-extralight": ["RobotoItalicExtralight","sans-serif"],
-        "roboto-italic-regular": ["RobotoItalicRegular","sans-serif"],
-        "roboto-italic-light": ["RobotoItalicLight","sans-serif"],
-        "roboto-italic-medium": ["RobotoItalicMedium","sans-serif"],
-        "roboto-italic-semibold": ["RobotoItalicSemibold","sans-serif"],
-        "roboto-italic-thin": ["RobotoItalicThin","sans-serif"],
+        // IBM Condensed
+        "ibm-condensed-bold": ["IBMCondensedBold", "sans-serif"],
+        "ibm-condensed-extralight": ["IBMCondensedExtralight","sans-serif"],
+        "ibm-condensed-light": ["IBMCondensedLight","sans-serif"],
+        "ibm-condensed-medium": ["IBMCondensedMedium","sans-serif"],
+        "ibm-condensed-regular": ["IBMCondensedRegular","sans-serif"],
+        "ibm-condensed-semibold": ["IBMCondensedSemibold","sans-serif"],
+        "ibm-condensed-thin": ["IBMCondensedThin","sans-serif"],
+        // IBM Devanagari
+        "ibm-devanagari-bold": ["IBMDevanagariBold", "sans-serif"],
+        "ibm-devanagari-extralight": ["IBMDevanagariExtralight","sans-serif"],
+        "ibm-devanagari-light": ["IBMDevanagariLight","sans-serif"],
+        "ibm-devanagari-medium": ["IBMDevanagariMedium","sans-serif"],
+        "ibm-devanagari-regular": ["IBMDevanagariRegular","sans-serif"],
+        "ibm-devanagari-semibold": ["IBMDevanagariSemibold","sans-serif"],
+        "ibm-devanagari-thin": ["IBMDevanagariThin","sans-serif"],
+        // IBM Italic
+        "ibm-italic-bold": ["IBMItalicBold", "sans-serif"],
+        "ibm-italic-condensed": ["IBMItalicExtralight","sans-serif"],
+        "ibm-italic-extralight": ["IBMItalicLight","sans-serif"],
+        "ibm-italic-light": ["IBMItalicMedium","sans-serif"],
+        "ibm-italic-medium": ["IBMItalicRegular","sans-serif"],
+        "ibm-italic-semibold": ["IBMItalicSemibold","sans-serif"],
+        "ibm-italic-thin": ["IBMItalicThin","sans-serif"],
       }
     },
   },

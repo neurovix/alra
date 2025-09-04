@@ -24,10 +24,10 @@ module.exports = {
         "ibm-devanagari-thin": ["IBMDevanagariThin","sans-serif"],
         // IBM Italic
         "ibm-italic-bold": ["IBMItalicBold", "sans-serif"],
-        "ibm-italic-condensed": ["IBMItalicExtralight","sans-serif"],
-        "ibm-italic-extralight": ["IBMItalicLight","sans-serif"],
-        "ibm-italic-light": ["IBMItalicMedium","sans-serif"],
-        "ibm-italic-medium": ["IBMItalicRegular","sans-serif"],
+        "ibm-italic-condensed": ["IBMItalicCondensed","sans-serif"],
+        "ibm-italic-extralight": ["IBMItalicExtralight","sans-serif"],
+        "ibm-italic-light": ["IBMItalicLight","sans-serif"],
+        "ibm-italic-medium": ["IBMItalicMedium","sans-serif"],
         "ibm-italic-semibold": ["IBMItalicSemibold","sans-serif"],
         "ibm-italic-thin": ["IBMItalicThin","sans-serif"],
       }

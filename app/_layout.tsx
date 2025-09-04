@@ -24,13 +24,13 @@ export default function RootLayout() {
     IBMDevanagariSemibold: require('../assets/fonts/devanagari/semibold.ttf'),
     IBMDevanagariThin: require('../assets/fonts/devanagari/thin.ttf'),
     // IBM Italic
-    IBMItalicBold: require('../assets/fonts/italic/bold.ttf'),
-    IBMItalicCondensed: require('../assets/fonts/italic/extralight.ttf'),
-    IBMItalicExtralight: require('../assets/fonts/italic/light.ttf'),
-    IBMItalicLight: require('../assets/fonts/italic/medium.ttf'),
-    IBMItalicMedium: require('../assets/fonts/italic/regular.ttf'),
-    IBMItalicSemibold: require('../assets/fonts/italic/semibold.ttf'),
-    IBMItalicThin: require('../assets/fonts/italic/thin.ttf'),
+    IBMItalicBold: require('../assets/fonts/italic/bold-italic.ttf'),
+    IBMItalicCondensed: require('../assets/fonts/italic/condensed-italic.ttf'),
+    IBMItalicExtralight: require('../assets/fonts/italic/extralight-italic.ttf'),
+    IBMItalicLight: require('../assets/fonts/italic/light-italic.ttf'),
+    IBMItalicMedium: require('../assets/fonts/italic/medium-italic.ttf'),
+    IBMItalicSemibold: require('../assets/fonts/italic/semibold-italic.ttf'),
+    IBMItalicThin: require('../assets/fonts/italic/thin-italic.ttf'),
   });
 
   if (!loaded) {

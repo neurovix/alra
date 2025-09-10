@@ -6,6 +6,19 @@ const icons = {
   role: require('@/assets/icons/role.png'),
   see: require('@/assets/icons/see.png'),
   user: require('@/assets/icons/user.png'),
+
+  home: require('@/assets/icons/home.png'),
+  search: require('@/assets/icons/search.png'),
+  add: require('@/assets/icons/add.png'),
+  inventory: require('@/assets/icons/inventory.png'),
+  settings: require('@/assets/icons/settings.png'),
+
+  molienda: require('@/assets/icons/molienda.png'),
+  peletizado: require('@/assets/icons/peletizado.png'),
+  retorno: require('@/assets/icons/retorno_a_planta.png'),
+  maquila: require('@/assets/icons/maquila.png'),
+  registerUser: require('@/assets/icons/register_user.png'),
+  material: require('@/assets/icons/material.png'),
 };
 
 export default icons;

@@ -119,13 +119,13 @@ export default function Home() {
         <View className="flex flex-row w-full mt-3 justify-between">
           <TouchableOpacity className="w-[48%] flex items-center border-b-4 border-green-500 bg-emerald-50 rounded-xl py-4">
             <Image tintColor="#059669" source={icons.molienda} />
-            <Text className="font-ibm-devanagari-bold pt-2 text-lg">
+            <Text className="font-ibm-condensed-bold pt-2 text-lg">
               Molienda
             </Text>
           </TouchableOpacity>
           <TouchableOpacity className="w-[48%] flex items-center border-b-4 border-green-500 bg-emerald-50 rounded-xl py-4">
             <Image tintColor="#059669" source={icons.peletizado} />
-            <Text className="font-ibm-devanagari-bold pt-2 text-lg">
+            <Text className="font-ibm-condensed-bold pt-2 text-lg">
               Peletizado
             </Text>
           </TouchableOpacity>
@@ -133,13 +133,13 @@ export default function Home() {
         <View className="flex flex-row w-full mt-3 justify-between">
           <TouchableOpacity className="w-[48%] flex items-center border-b-4 border-green-500 bg-emerald-50 rounded-xl py-4">
             <Image tintColor="#059669" source={icons.retorno} />
-            <Text className="font-ibm-devanagari-bold pt-2 text-lg">
+            <Text className="font-ibm-condensed-bold pt-2 text-lg">
               Retorno a planta
             </Text>
           </TouchableOpacity>
           <TouchableOpacity className="w-[48%] flex items-center border-b-4 border-green-500 bg-emerald-50 rounded-xl py-4">
             <Image tintColor="#059669" source={icons.maquila} />
-            <Text className="font-ibm-devanagari-bold pt-2 text-lg">
+            <Text className="font-ibm-condensed-bold pt-2 text-lg">
               Maquila
             </Text>
           </TouchableOpacity>
@@ -147,13 +147,13 @@ export default function Home() {
         <View className="flex flex-row w-full mt-3 justify-between">
           <TouchableOpacity className="w-[48%] flex items-center border-b-4 border-green-500 bg-emerald-50 rounded-xl py-4">
             <Image tintColor="#059669" source={icons.registerUser} />
-            <Text className="font-ibm-devanagari-bold pt-2 text-lg">
+            <Text className="font-ibm-condensed-bold pt-2 text-lg">
               Registrar cliente
             </Text>
           </TouchableOpacity>
           <TouchableOpacity className="w-[48%] flex items-center border-b-4 border-green-500 bg-emerald-50 rounded-xl py-4">
             <Image tintColor="#059669" source={icons.material} />
-            <Text className="font-ibm-devanagari-bold pt-2 text-lg">
+            <Text className="font-ibm-condensed-bold pt-2 text-lg">
               Registrar material
             </Text>
           </TouchableOpacity>

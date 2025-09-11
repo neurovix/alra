@@ -26,6 +26,12 @@
     "plugins": [
       "expo-router",
       [
+        "expo-camera",
+        {
+          "cameraPermission": "Permitir ALRA accesar a la camara",
+          "microphonePermission": "Permitir ALRA accesar al microfono",
+          "recordAudioAndroid": true
+        },
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
